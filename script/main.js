@@ -18,4 +18,10 @@ $(function(){
       $('#bottom_header').removeClass();
     }
   });
+  $('#slide').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1300,
+  });
 });

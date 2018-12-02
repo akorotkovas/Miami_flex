@@ -372,7 +372,6 @@ nav a {
 
 .box_tm {
   width: 23.71vw;
-  padding: 0 1vw;
 }
 
 .name_tm h3 {
@@ -463,4 +462,26 @@ footer {
 
 #bottom_header.fixedNav nav {
   height: inherit;
+}
+
+/* Media */
+
+@media only screen and ( min-device-width: 320px) and ( max-device-width: 480px ),
+@media only screen and ( max-width: 320px ),
+@media only screen and ( min-device-width: 768px) and ( max-device-width: 1024px )
+{
+  #bottom_header {
+    display: none;
+  }
+  #header {
+    padding: 5vh 0;
+  }
+  #top_header {
+    height: 90vh;
+    flex-flow: column;
+  }
+  body {
+    font-size: 2.26vmax;
+    line-height: 2.0vmax;
+  }
 }
